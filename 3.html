@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  h2
+  {
+    color: blue;
+  }
+  p
+  {
+    
+    text-align: center;
+    font-size: 25px;
+
+  }
+  h3
+  {
+    float: left;
+    color: blue;
+  
+  }
+  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.w3-button {width:150px}
+dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.parent {display: block;position: relative;float: left;line-height: 30px;background-color: blue;border-right:#CCC 1px solid;}
+.parent a{margin: 10px;color: blue;text-decoration: none;}
+.parent:hover > ul {display:block;position:absolute;}
+.child {display: none;}
+.child li {background-color: blue;line-height: 30px;border-bottom:#CCC 1px solid;border-right:#CCC 1px solid; width:100%;}
+.child li a{color: #000000;}
+ul{list-style: none;margin: 0;padding: 0px; min-width:10em;}
+ul ul ul{left: 100%;top: 0;margin-left:1px;}
+li:hover {background-color: blue;}
+.parent li:hover {background-color: blue;}
+.expand{font-size:12px;float:right;margin-right:5px;}
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+  background-color: blue;
+  background-color: pink;
+  background-color: blue;
+</style>
+
+<body>
+
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+
+</div>
+<p>K and K Logistics is a reputed manufacturer/processor/exporter and supplier of  Handicraft,  food and agriculture commodities including  Furniture , Textile, Spices.
+Along with Handicraft and agriculture  products we are also exporting finest quality. We are a trustworthy destination for high quality, and your search ends at K and K Logistics with high-end export quality. We are using high quality of Raw material for manufacturing product.  
+The company operates in compliance with the law and adheres to high ethical standards in action with integrity and honesty. With our ethical and transparent business policies, we have carved a niche in the domestic as well as international market. We are backed up by a wide distribution network that enable us to ensure timely delivery of the products. Our client oriented approaches, post-delivery services and reasonable prices provide us an additional edge over other competitors in the similar arena.
+K and K Logistics is a merchant export company specializing in a variety of products and value added services  K and K Logistics has grown leaps and bounds and works with multi-nationals in India and across the world.</p>
+
+
+
+<h2 style="text-align:center">Our Team</h2>
+<p>A great team is the difference between success and failure. Therefore, we have engagement of top level management in business who work with merchandising, quality, designing and other teams and provide a healthy & happy environment.  Our workforce includes excellent artisans, efficient administrative experts, talented product designers, finest quality Controllers, and effective sales & marketing executives
+  <p>
+    <h2 style="text-align:center"> Our Mission-Vission</h2>
+    <p>Our vision- K And K Logistics  is to GROW TOGHETHER by establishing the best supply chain network between the manufacturer and consumers thereby, leading to a more customer friendly business environment.</p>
+
+   
+    <p> Our Mission- K And K Logistics is to provide the customers with excellent quality products at a right price on right time with most effective communication, appropriate required documentation. We wish to enhance our performance with each deal by taking feedback from our valued customers. Our approach is to set benchmark standards for our products & services through strict quality controls in our production chain to deliver quality products and on given schedule which will help us to maintaincomplete customer satisfaction and continuous growth.
+
+    K And K Logistics is grow together, drive us to satisfy our customers with innovative technology and superior quality, value and service and to act with uncompromising honesty and integrity in everything we do. We respect our social and physical environment around the world. We value and develop our employees' diverse talents, initiative and leadership and to earn the admiration of all those
+ </p>
+
+<h2 style="text-align:center"> Client Satisfaction</h2>
+<p>The skilled professionals at our unit are well aware of industry quality trends and changing demands of clients and accordingly process the order with strict quality control.K And K Logisticshave dedicated customer care team for complete customer satisfaction and quick communications. Our transparent business practices have enabled us to build a vast customer base across the globe.</p><br>
+
+<h2 style="text-align:center">Our Strength</h2>
+<p><br>Qualifiedand Experienced Professionals Team.<br>
+<br>Order Customization Available asper Requirement.<br>
+<br>Market Competitive Pricing.<br>
+<br>Strict Quality Standards.<br>
+<br>Time Bound Delivery.<br>
+<br>Complete Client Satisfaction.</p><br>
+
+<h2 style="text-align:center">Quality Assurance</h2>
+<p>Our offered products are extensively recognized in the market due to their features such as high quality, well-developed materials, high performance, secure packaging and long self-life. Products are manufactured in compliance with the Indian and Global quality standards for complete customer satisfaction</p>
+
+
+<h2 style="text-align:center"> Memberships and Associations</h2>
+<img src="1Apeda.jpg" style="width:25%">
+<img src="FIEO-13-4-2020.jpg" style="width:25%">
+<img src="EFJWf70UUAAQXS7.png" style="width:20%">
+<img src="1567399042EPCH.jpg" style="width:25%"><br><br><br><br><br>
+
+
+
+
+<h1 style="color: black; text-align: center;"><a href="index.html" class="w3-center" style="font-size: 40px">Home</a></h1>
+
+
+  
+  
+  
+  
+
+
+</body>
+</html>
